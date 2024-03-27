@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=roboto+Neue&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto Neue", sans-serif;
+}
+
+.container-fluid {
+  display: flex;
+  align-items: center; /* Alignement vertical centré */
+}
+
+.imageIndex {
+  max-width: 550px; /* Largeur maximale de l'image */
+  max-height: 550px; /* Hauteur maximale de l'image */
+}
+
+.footer{
+background-color: #ffd78a;
+}
+
+.social-link {
+  text-decoration: none; /* Supprime le soulignement */
+  color: #000000; /* Change la couleur du texte en blanc */
+}
+
+.social-link:hover {
+  color: #ccc; /* Change la couleur du texte en gris clair au survol */
+}
+
+.btn{
+  background-color: #ffd78a;
+}
